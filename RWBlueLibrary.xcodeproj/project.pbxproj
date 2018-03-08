@@ -41,9 +41,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C66C736C2050D63B00FB4331 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79F6FC401F14251800E22ED5 /* Album.swift */,
+			);
+			name = Model;
+			path = RWBlueLibrary;
+			sourceTree = "<group>";
+		};
+		C66C736D2050D65C00FB4331 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79F6FC421F14254E00E22ED5 /* AlbumView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C66C736E2050D68900FB4331 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF66171EBD28EF006123DA /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		EDDF66091EBD28EF006123DA = {
 			isa = PBXGroup;
 			children = (
+				C66C736C2050D63B00FB4331 /* Model */,
+				C66C736D2050D65C00FB4331 /* Views */,
+				C66C736E2050D68900FB4331 /* Controllers */,
 				EDDF66141EBD28EF006123DA /* RWBlueLibrary */,
 				EDDF66131EBD28EF006123DA /* Products */,
 			);
@@ -62,11 +90,8 @@
 		EDDF66141EBD28EF006123DA /* RWBlueLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				79F6FC401F14251800E22ED5 /* Album.swift */,
-				79F6FC421F14254E00E22ED5 /* AlbumView.swift */,
 				EDDF66211EBD28EF006123DA /* Info.plist */,
 				EDDF66151EBD28EF006123DA /* AppDelegate.swift */,
-				EDDF66171EBD28EF006123DA /* ViewController.swift */,
 				EDDF661C1EBD28EF006123DA /* Assets.xcassets */,
 				EDDF66351EBD2B5F006123DA /* API */,
 				EDDF661E1EBD28EF006123DA /* LaunchScreen.storyboard */,
